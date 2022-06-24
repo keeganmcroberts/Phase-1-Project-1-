@@ -1,22 +1,50 @@
 <!DOCTYPE html>
-<html lang="en">
+<html>
+
 <head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="./index.css">
-    <script type="text/javascript" src="index.js" defer></script>
-    <title>Document</title>
+  <meta charset="utf-8" />
+  <title>Random Beer Selector</title>
+  <link rel="stylesheet" type="text/css" href="styles.css" />
+  <script type="text/javascript" src="index.js"></script>
 </head>
 
 <body>
-
-    <h1>  </h1> 
-
-    <div id="page-banner"></div>
-    <div id="characters"></div>
-    
+  <header>
+    <h3>Beer Selector</h3>
+    <h4>Click a Beer Below!</h4>
+  </header>
+  
+  <!-- Beer List -->
+  <div id="beer-list">
+    <!-- Beer Image Here -->
+  </div>
+  <div> 
+    <input type="text" id="mySearch" placeholder="Search beer by type or food pairing...">
+  </div>
+  
+  <!-- Beer Details -->
+  <div id="beer-detail">
+    <img class="detail-image" src="https://www.tasteofhome.com/wp-content/uploads/2019/03/shutterstock_113954089-beer.jpg?fit=700,700" alt="Insert Name Here" />
+    <h2 class="name">Name:</h2>
+    <h3 class="tagline">Description:</h3>
+    <h3 class="abv">abv:</h3>
+  </div>
+  <div id ='food-list'>
+    <h3>Pairs Well With:</h3>
+    <p id='food-display'></p>
+  </div>
+  <!-- <div id = "reviews-list">
+    <h3 id="reviews"> Reviews </h3>
+    <div id="reviews-delete">
+    </div>
+  </div> -->
+  <!-- <form id="beer-review">
+    <h4>Leave Review</h4>
+    <label for="new-review">Review: </label>
+    <textarea type="text" name="review" id="text-area"></textarea>
+    <input type="submit" value="Submit" />
+  </form> -->
+  
 </body>
-
 
 </html>
